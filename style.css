@@ -1,0 +1,49 @@
+Body { margin :0px;}
+
+ul {margin: 50px;
+    font-family: sans-serif; }
+    
+
+header a {color:white ;
+text-decoration:none;
+font-family :sans-serif;
+font-size: 20px;
+text-align: center;
+ 
+}
+
+
+.moncercle{
+  background:#372A37;
+  margin:70px;
+  border-radius:50%;
+  width:160px;
+  height:160px;
+  line-height: 160px;
+display: inline-block;
+    text-align: center; 
+    transition: all .5s linear;
+}
+
+.moncercle:hover {
+    background-color:#E5D8CA;
+    transform: rotate(360deg);
+}
+
+header ul {
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+
+
+
+header li {
+    display: inline-block;
+    text-align: center;
+    font-family:sans-serif; 
+   
+   }
+        
+
