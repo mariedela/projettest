@@ -1,4 +1,5 @@
-Body { margin :0px;}
+Body { margin :0px;
+background-image:url(images/fond%20cv.png);}
 
 ul {margin: 50px;
     font-family:'Signika', sans-serif; }
@@ -8,60 +9,68 @@ header a {color:white ;
 text-decoration:none;
 font-family :'Signika', sans-serif;
 font-size: 20px;
-text-align: center;
- 
-}
+text-align: center;}
 
 
 .moncercle{
-  background:#372A37;
-  margin:40px;
-  border-radius:50%;
-  width:120px;
-  height:120px;
-  line-height: 120px;
+background:#372A37;
+margin:40px;
+border-radius:50%;
+width:120px;
+height:120px;
+line-height: 120px;
 display: inline-block;
 text-align: center; 
-    transition: all .5s linear;
-}
+transition: all .5s linear;}
 
 .moncercle:hover {
-    background-color:#F5EDF1;
-    transform: rotate(360deg);
-}
+    background-color:#D4C7C7;
+    transform: rotate(360deg);}
 
 header ul {
     margin:0;
     padding:0;
-    text-align:center;
-}
+    text-align:center;}
 
 header li {
     display: inline-block;
     text-align: center;
-    font-family: font-family: 'Signika', sans-serif;
-   
-   }
+    font-family:'Signika', sans-serif;}
 
 .cerclephoto {
     overflow:hidden;
+    margin-left:500px;
+    margin-top:-300px;
     border-radius:160%;
-    width:180px;
-    height:180px;
-    margin:70px;
-    text-align: center;
-}
+    width:200px;
+    height:200px;}
 
-
+p {
+    font-family:'Amatic SC', cursive;
+     margin-left: 883px;
+    font-size:35px;
+    text-align:justify;
+    padding-top:-10px; 
+    margin-top:-100px;}
 
 h1 {
     font-family:'Amatic SC', cursive;
     margin-left: 30px;
     font-size:70px;
+    padding-top: 200px;
     border-bottom : 4px solid #372A37;
-    width : 1000px; 
+    width : 1135px; 
+    
     
 }
+
+.rectangle {
+    background: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    height:350px;
+    border-radius:1%;
+    
 
 h3 {
     font-family:'Signika', sans-serif; 
@@ -69,13 +78,7 @@ h3 {
     margin-left: 30px;
    
 
-p {
-    font-family:'Amatic SC', cursive;
-     margin-left: 650px;
-    font-size:40px;
-   text-align:justify;
-    padding-top:-10px; 
-    margin-top:-100px;
+
     
     
 
