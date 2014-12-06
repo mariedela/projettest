@@ -37,7 +37,7 @@ transition: all .5s linear;}
 
 
 .moncercle:hover {
-    background-color:#D4C7C7;
+    background-color:#A89595;
     transform: rotate(360deg);}
 
 header ul {
@@ -67,10 +67,7 @@ main .rectangle {
     margin-top: 4%;
     height:350px ;
     width:90%;
-    
-    
-    
-}
+    border-radius:15px;}
 
 .etudiante {
     font-family:'Amatic SC', cursive;
@@ -78,8 +75,7 @@ main .rectangle {
     text-align:justify;
     position: absolute;
     top:507px;
-    right:90px;
-}
+    right:90px;}
 
 .marie {
     font-family:'Amatic SC', cursive;
@@ -89,27 +85,81 @@ main .rectangle {
     top:470px;
     left:90px;
     border-bottom : 4px solid #372A37;
-    width:1000px;
-  
-    
-    
-}
-
-
-      
+    width:1000px;}
+   
 
 h3 {
-    font-family:'Signika', sans-serif;
-    font-size:16px;
-    margin-left:30px;
-    font-style: italic;
-color: #372A37; }
+    font-family:'Amatic SC', cursive;
+    font-size:25px;
+    margin-top: 25px;
+    color: #372A37;
+    margin-left:50px;}
 
 
  h2 {
     font-family:'Amatic SC', cursive;
     font-size:40px;
-    margin-left: 30px;}
+    margin-left: 50px;
+     color:#A89595;}
+
+.formations {
+    list-style-type: none;
+    margin-top: -25px; }
+    
+
+.experiencespro {
+    list-style-type: none;
+    margin-top: -30px; }
+
+.logiciels {
+   list-style-type: none;
+    background:white;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-left:-45px;
+    margin-right: 100px;
+    color:#372A37;
+    font-style:oblique;
+    font-size:18px;}
+    
+    
+.langues1 {
+     list-style-type: none;
+    background:white;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-left:-45px;
+    margin-right: 100px;
+    color:#372A37;
+    font-style:oblique;
+    font-size:18px;}
+    
+
+.loisir {
+    list-style-type: none;
+    background:white;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    margin-left:-45px;
+    margin-right: 100px;
+    color:#372A37;
+    font-style:oblique;
+    font-size:18px;}
+    
+    
+    
 
 
 
