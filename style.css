@@ -56,11 +56,7 @@ main .cerclephoto {
     border-radius:50px;
     width:180px;
     height:180px;
-    transform:translateY(10%)
-}
-
-
-
+    transform:translateY(10%)}
 
 main .rectangle {
     background: white;
@@ -102,6 +98,7 @@ h3 {
     margin-left: 50px;
      color:#A89595;}
 
+
 .formations {
     list-style-type: none;
     margin-top: -25px; }
@@ -128,25 +125,22 @@ h3 {
     overflow: hidden;
     position:relative;
     -webkit-transform-style: preserve-3d;
-  -webkit-transform: translate3d(0,0,0);
-}
+    -webkit-transform: translate3d(0,0,0);}
 
-.logiciels-niveau{
+.competences-niveau{
     width:100%;
-    background-color:red;
+    background-color:#A89595;
     position:absolute;
     bottom:0;
     transform:translateY(100%);
-    transition:all 1s ease;
-    
-}
+    transition:all 1s ease;}
 
 .logiciels .mot{
     position:absolute;
-    top:20%;
-}
+    top:0%;
+    left:30%;}
 
-.logiciels:hover .logiciels-niveau{
+.logiciels:hover .competences-niveau{
     transform:translateY(0);
 }
     
