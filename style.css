@@ -65,6 +65,20 @@ main .rectangle {
     width:90%;
     border-radius:15px;}
 
+.Plaquette {
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    margin-right:50px;
+    padding-left:15px;
+    
+    
+   
+    
+}
+    
+
+
 .etudiante {
     font-family:'Amatic SC', cursive;
     font-size:35px;
@@ -97,7 +111,6 @@ h3 {
     font-size:40px;
     margin-left: 50px;
      color:#A89595;}
-
 
 .formations {
     list-style-type: none;
@@ -203,10 +216,11 @@ h3 {
     height:300px ;
     width:900px;
     border-radius:15px;}
+
+
+
+
     
-    
-    
-}
 
 
 
