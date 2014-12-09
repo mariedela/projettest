@@ -124,7 +124,31 @@ h3 {
     margin-right: 100px;
     color:#372A37;
     font-style:oblique;
-    font-size:18px;}
+    font-size:18px;
+    overflow: hidden;
+    position:relative;
+    -webkit-transform-style: preserve-3d;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.logiciels-niveau{
+    width:100%;
+    background-color:red;
+    position:absolute;
+    bottom:0;
+    transform:translateY(100%);
+    transition:all 1s ease;
+    
+}
+
+.logiciels .mot{
+    position:absolute;
+    top:20%;
+}
+
+.logiciels:hover .logiciels-niveau{
+    transform:translateY(0);
+}
     
     
 .langues1 {
@@ -163,12 +187,14 @@ h3 {
     line-height: 50px;
     font-family:'Signika', sans-serif;
     font-size:16px;
+    
 }
 
 .Icones img{
     position:relative;
     top:10px;
     margin-right:10px;
+   
 }
     
 
