@@ -157,6 +157,38 @@ h3 {
     color:#372A37;
     font-style:oblique;
     font-size:18px;}
+
+.Icones {
+    list-style-type: none;
+    line-height: 50px;
+    font-family:'Signika', sans-serif;
+    font-size:16px;
+}
+
+.Icones img{
+    position:relative;
+    top:10px;
+    margin-right:10px;
+}
+    
+
+.rectangle1 {
+    background: white;
+    margin-top: 6px;
+    height:300px ;
+    width:900px;
+    border-radius:15px;}
+    
+    
+    
+}
+
+
+
+
+    
+    
+    
     
     
     
