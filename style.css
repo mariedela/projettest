@@ -51,31 +51,29 @@ header li {
     font-family:'Signika', sans-serif;}
 
 
-main .cerclephoto {
+.cerclephoto {
     overflow:hidden;
-    border-radius:50px;
+    border-radius:120px;
     width:180px;
     height:180px;
+    margin-top:-440px;
+   
     transform:translateY(10%)}
 
 main .rectangle {
     background: white;
     margin-top: 4%;
-    height:350px ;
+    height:430px ;
     width:90%;
     border-radius:15px;}
 
 .Plaquette {
     list-style-type: none;
     display: inline-block;
-    margin: auto;
-    margin-right:50px;
-    padding-left:15px;
+    padding-left:60px;
+    margin-top:277px;
     
-    
-   
-    
-}
+    }
     
 
 
@@ -84,7 +82,7 @@ main .rectangle {
     font-size:35px;
     text-align:justify;
     position: absolute;
-    top:507px;
+    top:470px;
     right:90px;}
 
 .marie {
@@ -92,7 +90,7 @@ main .rectangle {
     font-size:70px;
     text-align:justify;
     position: absolute;
-    top:470px;
+    top:433px;
     left:90px;
     border-bottom : 4px solid #372A37;
     width:1000px;}
